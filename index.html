@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <!--<script type="text/javascript" src="javascript.js"></script>-->
+    <title>How toothpaste works - Thickener and Bleach</title>
+
+</head>
+<body>
+    <header>
+        <div class="topline"></div>
+        <div class="nav">
+            <p>
+                Chemistry  >  How toothpaste works - Thickener and Bleach
+            </p>
+        </div>
+    </header>
+    <section class="mainbody">
+        <div id="title">
+            <h1>How Toothpaste Works</h1>
+            <!--<h2>by Jiaqi Wang & Wenjie Li&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tools for online learning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb 16, 2019</h2>-->
+        </div>
+
+        <div id="instruction-title">
+            <div id="vertical-line"></div>
+            <h1>Learning instructions</h1>
+        </div>
+        <div id="instruction">
+
+            <p>This module will be completed in groups of 3. </p>
+            <h2>Part 1</h2>
+            <p>For the first part of this module, you will be assigned a video to watch that will teach you about how toothpastes work. The video will detail 2 out of 6 of the main ingredients used in toothpastes. After the video, you will <em>complete a short formative assessment</em> to clarify misconceptions about the video. <em>This assessment will not be graded</em>.</p>
+            <h2>Part 2</h2>
+            <p>After watching the video, you will engage in a classroom activity where you will be responsible for <em>teaching the other group members about the ingredients that were assigned to you. You won’t be allowed to show them your video.</em> So remember to take notes when watching.
+            </p>
+            <h2>Part 3</h2>
+            <p>After teaching each other, you <em>will be assigned a task as a group in which you will be in charge of the parts that are not in your video</em>. You will be asked to <em>evaluate your work according to a checklist</em> provided by the teacher. <em>This activity counts part of your final score</em>.</p>
+            <h2>Part 4</h2>
+            <p>You will be required to do a <em>post-test</em> to examine your learning outcome. Your final score will be calculated in the proportion below:</p>
+            <div id="proportion">
+                <p><em>Individual score of the post test: 45%</em><br><em>Group average score of the post-test: 30%</em><br><em>In class group activity: 25%</em></p>
+            </div>
+
+            <div id="watch-video">
+                <h2>Now watch the video below. Pay special attention to thickener and bleach. Your group members will count on you!</h2>
+            </div>
+
+        </div>
+
+
+
+        <div id="player-container">
+            <iframe width="1090" height="613" src="https://www.youtube.com/embed/tm4-YyWH6Jo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+        <div id="invent1">
+            <h3>What should Anna do to make seesaw move up and down? Choose as many answers as you can:</h3>
+            <form class="option">
+                <input id="A1" type="checkbox" name="quiz1" value=true> <em>A. Sit at the end point of the right side</em> <br>
+                <input id="B1" type="checkbox" name="quiz1" value=true> <em>B. Sit very close to the middle point</em> <br>
+                <input id="C1" type="checkbox" name="quiz1" value=true> <em>C. Hold something heavy with her then sit on the right side</em> <br>
+                <input id="D1" type="checkbox" name="quiz1" value=true> <em>D. Sit with Tom on the same side</em> <br>
+            </form>
+
+            <div id="pic1" class="picture">
+                <img src="images/pic1.jpeg" alt="picture1"/>
+            </div>
+
+            <div id="btnq1">
+                <button onclick="handleQ1()" class="button">Submit</button>
+            </div>
+            <div id="answer1"></div>
+
+        </div>
+
+        <div id="invent2">
+            <h3>The watermelon is three times heavier than the apple. If we put the apple at the far end on the right side, where should we put the watermelon in order to keep the beam balanced? Choose one answer:</h3>
+            <form class="option">
+                <input id="A2" type="radio" name="quiz2" value=true> <em>A. Point A</em> <br>
+                <input id="B2" type="radio" name="quiz2" value=true> <em>B. Point B</em> <br>
+                <input id="C2" type="radio" name="quiz2" value=true> <em>C. Point C</em> <br>
+            </form>
+
+            <div id="pic2" class="picture">
+                <img src="images/pic2.jpeg" alt="picture2"/>
+            </div>
+
+            <div id="btnq2">
+                <button onclick="handleQ2()" class="button">Submit</button>
+            </div>
+            <div id="answer2" class="answer"></div>
+
+        </div>
+
+        <div id="invent3">
+            <h3>If we represent mass with the letter M and distance with the letter d, can you come up with a equation to illustrate the law? </h3>
+            <form class="option">
+                <input id="T3" type="text" name="quiz3" placeholder="Put your equation here"/>
+            </form>
+
+            <div id="pic3" class="picture">
+                <img src="images/pic3.jpeg" alt="picture3"/>
+            </div>
+
+            <div id="hint">
+                <a>
+            </div>
+
+            <div id="btnq3">
+                <button onclick="continueVideo(3)" class="button">Check your answer</button>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
